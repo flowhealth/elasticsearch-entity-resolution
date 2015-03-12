@@ -51,7 +51,7 @@ public final class EntityResolutionScript extends AbstractDoubleSearchScript {
     /**
      * . Average score
      */
-    private static final double AVERAGE_SCORE = 0.5;
+    private static final double AVERAGE_SCORE = 0.4;
 
     /**
      * . Cache to store configuration
