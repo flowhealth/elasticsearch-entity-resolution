@@ -206,7 +206,7 @@ public final class EntityResolutionScript extends AbstractDoubleSearchScript {
             
             Boolean v1empty = true;
             for (String v1 : vs1) {
-                if (v1 != "") {
+                if (v1 != "" && !v1.equals("0")) {
                     v1empty = false;
                     break;
                 }
@@ -214,7 +214,7 @@ public final class EntityResolutionScript extends AbstractDoubleSearchScript {
 
             Boolean v2empty = true;
             for (String v2 : vs2) {
-                if (v2 != "") {
+                if (v2 != "" && !v2.equals("0")) {
                     v2empty = false;
                     break;
                 }
