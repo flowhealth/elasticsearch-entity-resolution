@@ -288,7 +288,7 @@ public final class EntityResolutionScript extends AbstractDoubleSearchScript {
         }
 
         double sim = comparator.compare(v1, v2);
-        if (sim < AVERAGE_SCORE) {
+        if (sim < low) {
             return low;
         } else {
             return ((high - AVERAGE_SCORE) * (sim * sim)) + AVERAGE_SCORE;
